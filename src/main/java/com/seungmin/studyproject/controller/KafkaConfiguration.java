@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:kafka.properties")
 public class KafkaConfiguration {
     @Autowired
     private Environment env;

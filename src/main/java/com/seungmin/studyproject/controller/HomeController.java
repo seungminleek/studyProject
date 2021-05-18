@@ -32,7 +32,7 @@ public class HomeController {
 
     @KafkaListener(topics = topicName,groupId = "foo")
     public void listen(String message) {
-        System.out.println("Received Msg jjjwodls " + message);
+        System.out.println("Received Msg seungMinTopic " + message);
     }
 
     /**
